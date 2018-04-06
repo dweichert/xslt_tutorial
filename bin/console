@@ -1,0 +1,17 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+require_once __DIR__.'/../vendor/autoload.php';
+
+use DavidWeichert\XsltTutorial\Transform;
+use Symfony\Component\Console\Application;
+
+$application = new Application('XSLT Tutorial', '1.0.0');
+
+$transformCommand = new Transform();
+
+$application->add($transformCommand);
+
+$application->run();

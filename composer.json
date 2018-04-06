@@ -1,0 +1,21 @@
+{
+    "name": "dweichert/xslt-tutorial",
+    "description": "Using XSL Transformation in PHP Projects",
+    "type": "project",
+    "require": {
+        "symfony/console": "^4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Weichert",
+            "email": "info@davidweichert.de",
+            "homepage": "https://davidweichert.de",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"DavidWeichert\\XsltTutorial\\": "Command/"}
+    },
+    "minimum-stability": "stable"
+}
