@@ -14,7 +14,7 @@
                 <title><xsl:value-of select="article/head/title"/></title>
             </head>
             <body>
-                <xsl:apply-templates/>
+                <xsl:apply-templates select="/article/head"/>
             </body>
         </html>
     </xsl:template>
