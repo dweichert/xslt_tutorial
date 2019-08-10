@@ -46,4 +46,21 @@
         <p><xsl:apply-templates/></p>
     </xsl:template>
 
+    <xsl:template match="blockquote">
+        <blockquote>
+            <xsl:apply-templates select="p"/>
+            <cite><xsl:apply-templates select="cite"/></cite>
+        </blockquote>
+    </xsl:template>
+
+    <xsl:template match="cite">
+        <xsl:if test="author">
+            <xsl:value-of select="author/firstname"/>
+            <xsl:text>&#160;</xsl:text>
+            <xsl:value-of select="author/lastname"/>
+            <xsl:text>:&#160;</xsl:text>
+        </xsl:if>
+        <xsl:value-of select="title"/>
+    </xsl:template>
+
 </xsl:stylesheet>
