@@ -62,10 +62,10 @@
                 <xsl:text>:&#160;</xsl:text>
             </xsl:if>
             <xsl:value-of select="title"/>
-        </cite><sup>1</sup>
+        </cite><sup><xsl:number level="any"/></sup>
     </xsl:template>
 
     <xsl:template match="cite">
-        <sup>1</sup>
+        <sup><xsl:number level="any"/></sup>
     </xsl:template>
 </xsl:stylesheet>
