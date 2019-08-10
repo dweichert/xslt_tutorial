@@ -7,6 +7,8 @@
                 encoding="UTF-8"
                 indent="yes" />
 
+    <xsl:strip-space elements="*"/>
+
     <xsl:template match="/">
         <html>
             <head>
@@ -17,6 +19,19 @@
                 <xsl:apply-templates select="/article/head"/>
             </body>
         </html>
+    </xsl:template>
+
+    <xsl:template match="head/title">
+        <h1 class="article-title"><xsl:value-of select="."/></h1>
+    </xsl:template>
+
+    <xsl:template match="head/subtitle">
+        <h2 class="article-subtitle"><xsl:value-of select="."/></h2>
+    </xsl:template>
+
+    <xsl:template match="head/author">
+        <p>von</p>
+        <p class="article-author"><xsl:value-of select="."/></p>
     </xsl:template>
 
 </xsl:stylesheet>
