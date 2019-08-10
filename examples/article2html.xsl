@@ -40,6 +40,8 @@
         <xsl:apply-templates/>
     </xsl:template>
 
+    <xsl:template match="chapter/title"/>
+
     <xsl:template match="p">
         <p><xsl:apply-templates/></p>
     </xsl:template>
