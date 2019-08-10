@@ -17,6 +17,7 @@
             </head>
             <body>
                 <xsl:apply-templates select="/article/head"/>
+                <xsl:apply-templates select="/article/chapter"/>
             </body>
         </html>
     </xsl:template>
@@ -32,6 +33,15 @@
     <xsl:template match="head/author">
         <p>von</p>
         <p class="article-author"><xsl:value-of select="."/></p>
+    </xsl:template>
+
+    <xsl:template match="chapter">
+        <h3><xsl:value-of select="position()"/>.&#160;<xsl:value-of select="title"/></h3>
+        <xsl:apply-templates/>
+    </xsl:template>
+
+    <xsl:template match="p">
+        <p><xsl:apply-templates/></p>
     </xsl:template>
 
 </xsl:stylesheet>
