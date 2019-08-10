@@ -27,6 +27,9 @@ class Transform extends Command
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
+        if (!extension_loaded('dom')) {
+            throw new RuntimeException('PHP DOM extension must be loaded.');
+        }
         if (!extension_loaded('xsl')) {
             throw new RuntimeException('PHP XSL extension must be loaded.');
         }
