@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article>
+    <head>
+        <title>Handsome Devils</title>
+        <subtitle>Die Bedeutung von Kleidung in Subkulturen in Großbritannien 1945-1980</subtitle>
+        <author>David Weichert</author>
+    </head>
+    <chapter>
+        <title>Einleitung</title>
+        <blockquote>
+            <p>We old Indians come to like this England less and less and we return to an imagined India.</p>
+            <cite>
+                <author>
+                    <firstname>Hanif</firstname>
+                    <lastname>Kureishi</lastname>
+                </author>
+                <title>The Buddha of Suburbia</title>
+                <publicationcity>London</publicationcity>
+                <publicationdate>1990</publicationdate>
+                <pages>74</pages>
+            </cite>
+        </blockquote>
+        <p>Wenn man im englischen Seebad <geo type="city">Brighton</geo> aus dem Zug steigt und der Straße zum Strand, an dem am 18. Mai 1964 über tausend jugendliche Mods und Rocker randalierten, folgt, sieht man sich plötzlich einer Manifestation des Orients gegenüber.</p>
+        <p>
+            Der <propername>Royal Pavilion</propername> entstammt dem wirklichen Orient, dieser Palast ist nicht im Auftrag eines indischen Moguls, chinesischen Kaisers oder sarazenischen Herrschers errichtet, son- dern von einem Europäer im ersten Viertel des neunzehnten Jahrhunderts erdacht worden.
+            <paraphrased>
+                Das Gebäude ist die konkrete Form einer Vorstellung, durch die Europäer Landschaften, Orte, Völker und Kulturen verstanden, bewältigten, beherrschten und sogar erzeugten, die als Ziele ihrer Sehnsüchte kolonisiert werden konnten.
+                <footnote>
+                    <cite>
+                        <author>
+                            <firstname>Edward</firstname>
+                            <lastname>Said</lastname>
+                        </author>
+                        <title>Orientalism</title>
+                        <publicationcity>New York</publicationcity>
+                        <publicationcity>Toronto</publicationcity>
+                        <publicationdate>1978</publicationdate>
+                    </cite>
+                </footnote>
+            </paraphrased>
+        </p>
+    </chapter>
+    <chapter>
+        <title>Milk plus something else</title>
+        <p>
+            <hypothesis>
+                Die jugendlichen Mods wurden in der Presse als „Purple Heart Happy Hoodlums“ und „Drug Crazed Youths“ bezeichnet, obwohl es wenig Evidenz gab, die auf einen signifikanten Drogenkonsum im Zusammenhang mit den Ereignissen in <geo type="city">Clacton</geo> und andernorts hinwies, und eine kausale Verbindung von Vandalismus und der Einnahme von Amphetaminen spekulativer Natur ist.
+                <cite>
+                    <author>
+                        <firstname>Stanley</firstname>
+                        <lastname>Cohen</lastname>
+                    </author>
+                    <title>Folk Devils and Moral Panics</title>
+                    <subtitle>The Creation of the Mods and Rockers</subtitle>
+                    <publicationcity>London</publicationcity>
+                    <publicationcity>New York</publicationcity>
+                    <publicationdate>1972</publicationdate>
+                </cite>
+            </hypothesis>
+        </p>
+    </chapter>
+</article>
