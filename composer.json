@@ -3,6 +3,7 @@
     "description": "Using XSL Transformation in PHP Projects",
     "type": "project",
     "require": {
+        "ext-dom": "*",
         "symfony/console": "^4.0"
     },
     "license": "MIT",
