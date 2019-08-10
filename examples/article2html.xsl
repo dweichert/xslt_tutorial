@@ -3,8 +3,7 @@
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
     <xsl:output method="html"
-                doctype-public="-//W3C//DTD HTML 4.01//EN"
-                doctype-system="http://www.w3.org/TR/html4/strict.dtd"
+                doctype-system="about:legacy-compat"
                 encoding="UTF-8"
                 indent="yes" />
 
