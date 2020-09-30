@@ -25,7 +25,7 @@ class Transform extends Command
             ->addArgument('output', InputArgument::OPTIONAL, 'Output file');
     }
 
-    protected function execute(InputInterface $input, OutputInterface $output)
+    protected function execute(InputInterface $input, OutputInterface $output): int
     {
         if (!extension_loaded('dom')) {
             throw new RuntimeException('PHP DOM extension must be loaded.');
@@ -44,6 +44,7 @@ class Transform extends Command
             file_put_contents($output, $result);
         }
 
+        return 0;
     }
 
     private function getSource(InputInterface $input): DOMDocument
